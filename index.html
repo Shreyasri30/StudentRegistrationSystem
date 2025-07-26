@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration System</title>
+  <meta name="description" content="Register students and manage their data using JavaScript DOM Manipulation">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Student Registration System</h1>
+    <p>An elegant, real-time student registration portal with editable records, secure validations, and seamless local data storage, built with precision using pure JavaScript DOM manipulation.</p>
+
+  </header>
+
+  <!-- Student Registration Form -->
+  <section id="form-section">
+    <h2>Register Student</h2>
+    <form id="student-form">
+      <!-- Student Name -->
+      <label for="name">Student Name:</label>
+      <input type="text" id="name" required><br>
+
+      <!-- Student ID -->
+      <label for="studentId">Student ID:</label>
+      <input type="text" id="studentId" required><br>
+
+      <!-- Email ID -->
+      <label for="email">Email ID:</label>
+      <input type="email" id="email" required><br>
+
+      <!-- Contact Number -->
+      <label for="contact">Contact Number:</label>
+      <input type="text" id="contact" required><br>
+
+      <!-- Submit Button -->
+      <button type="submit">Add Student</button>
+    </form>
+  </section>
+
+  <!-- Display Registered Students -->
+  <section id="display-section">
+    <h2>Registered Students</h2>
+    <table id="student-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>ID</th>
+          <th>Email</th>
+          <th>Contact</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Student records will appear here -->
+      </tbody>
+    </table>
+  </section>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
