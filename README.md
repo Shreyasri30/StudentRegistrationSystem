@@ -19,10 +19,10 @@ This is a fully functional student registration portal built using **HTML, CSS, 
 
 ## File Structure
 StudentRegistrationSystem/
-├── index.html # Main HTML structure
-├── style.css # Full UI styling + responsiveness
-├── script.js # All DOM logic, validation, storage
-└── README.md # Project overview (you are reading it)
+-index.html # Main HTML structure
+-style.css # Full UI styling + responsiveness
+-script.js # All DOM logic, validation, storage
+-README.md # Project overview (you are reading it)
 
 
 ## How to Run
