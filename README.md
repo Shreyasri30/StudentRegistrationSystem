@@ -11,7 +11,7 @@ This is a fully functional student registration portal built using **HTML, CSS, 
 - Data persistence with `localStorage`
 - Fully responsive design (mobile, tablet, desktop)
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3 (Media Queries + Styling)
