@@ -33,5 +33,6 @@ StudentRegistrationSystem/
 4. Data will persist even after page refresh
 
 ## Developer
+**GitHub Repository:** https://github.com/Shreyasri30/StudentRegistrationSystem
 
 Made by Shreyasri 
